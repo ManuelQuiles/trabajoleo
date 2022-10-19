@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500;600&family=Ibarra+Real+Nova:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+body{
+
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+    font-family: 'Ibarra Real Nova', serif;
+    
+}
+
+#sidebarL, #sidebarR {
+    background-image: url(/public/images/fondo.jpg) ;
+}
+
+#sidebarL a, #sidebarR a{
+    text-decoration: none;
+    color: rgb(142, 127, 199);
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 30px;
+    padding: 1px;
+    text-shadow: 1px 1px 2px black;
+ }
+ #pnav{
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 30px;
+    color: black;
+ }
+
+#lista1 li a:hover, #lista2 li a:hover{
+    color: rgb(77, 10, 139);
+}
+
+img {
+    width: 100%;
+}
+
+#mapache{
+    width: 60%;
+    margin: 20px;
+    
+    border-radius: 10px ;
+}
+
+#titulito {
+    color: rgb(77, 10, 139);
+    font-weight: 700;
+    font-style: italic;
+    font-size: 42px;
+}
+
+#lista2 {
+    list-style-type: "<";
+    
+    font-weight: 600;
+    font-style: italic;
+    font-size: 30px
+    
+    
+    
+
+
+}
+
+#tcat{
+    font-weight: 700;
+    font-style: italic;
+    font-size: 40px
+    
+}
+#lista2 li, #tcat{
+    color: rgb(104, 68, 235);
+    text-shadow: 1px 1px 2px rgb(215, 189, 240);
+}
